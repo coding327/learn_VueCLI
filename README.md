@@ -42,7 +42,7 @@ vue create vuecli_demo
 ```
 
 输入后回车，会出现一个选择界面如下图：
-![10186](https://img.coding327.top/blogImg/10186.png)
+![10186](https://s1.ax1x.com/2022/10/26/xW5gc6.png)
 
 - 第一个选项是它会默认帮你创建一个`vue3`项目，并且包含`babel`和`eslint`
 - 第二个选项是它会默认帮你创建一个`vue2`项目，并且包含`babel`和`eslint`
@@ -51,7 +51,7 @@ vue create vuecli_demo
 按上下方向键可以进行选择，这里我们选择第三个，回车
 
 接着出现如下第二个界面：
-![10187](https://img.coding327.top/blogImg/10187.png)
+![10187](https://s1.ax1x.com/2022/10/26/xW5bgP.png)
 
 这个是让你选择特性了，当然它其中也说了，按住空格是选择【括号内就会带上星号】再按一下就会取消选择，按回车进行下一步
 - 第一个让你选择`Babel`，让`ES6`代码转为`ES5`代码【这个我们需要用，选上】
@@ -66,15 +66,15 @@ vue create vuecli_demo
 
 最后将选择好后，进行回车进入下一步
 出现如下第三个选择界面：
-![10188](https://img.coding327.top/blogImg/10188.png)
+![10188](https://s1.ax1x.com/2022/10/26/xW5Ou8.png)
 
 这个是让我们选择`vue`的版本，按住上下方向键可以进行选择，这里我们选择`3.x`即`vue3`版本，然后回车
 出现如下第四个选择界面：
-![10189](https://img.coding327.top/blogImg/10189.png)
+![10189](https://s1.ax1x.com/2022/10/26/xW5zNj.png)
 这个是让我们选择像`Babel`、`ESlint`和`etc`是生成单独、分离的配置文件，还是放到`package.json`文件里面，放到`package.json`的话，会让这个文件过大，不方便管理，所以我们一般选择`In dedicated config files`然后回车
 
 出现如下第五个选择界面：
-![10190](https://img.coding327.top/blogImg/10190.png)
+![10190](https://s1.ax1x.com/2022/10/26/xWIS4s.png)
 大概意思是把刚才我们的选择是否保存为预设，下一次选择的时候就不需要刚才这么多步骤了，这个选择就看个人了
 这里我们可以试一下它这个保存为预设，输入`y`，然后回车
 它会让我们起一个名字【`Save preset as`】，随便起一个吧，就叫`cake`，输完后回车，然后就会帮我们创建了
@@ -84,13 +84,13 @@ vue create vuecli_demo
 vue create abc
 ```
 敲完命令回车，出现如下选择界面：
-![10191](https://img.coding327.top/blogImg/10191.png)
+![10191](https://s1.ax1x.com/2022/10/26/xWI9Cn.png)
 
 上面多了一个选项，多的那个就是我们刚刚保存的预设，我们已经创建一个项目了，直接按住`CTRL + C`把它取消掉
 
 ## 项目的目录结构
 这里我放在一张图里面了
-![10192](https://img.coding327.top/blogImg/10192.png)
+![10192](https://s1.ax1x.com/2022/10/26/xWIQv6.png)
 
 关于浏览器适配的这个文件，`.browserslistrc`文件里的内容一般使用默认的，这里我也解释一下：
 ```txt
